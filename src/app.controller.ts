@@ -12,7 +12,7 @@ export class AppController {
 
 	@Get('good-bye')
 	getGoodbye(): string {
-		return this.appService.getHello();
+		return 'goodBye'
 	}
 
 	@Get('get-number/:id')
